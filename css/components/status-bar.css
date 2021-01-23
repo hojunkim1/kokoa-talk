@@ -1,7 +1,10 @@
 .status-bar {
+  /* 나중에 fixed 상태로 만들기 */
   display: flex;
+  width: 100%;
   justify-content: center;
   padding: 5px 3px;
+  top: 0;
 }
 .status-bar__column {
   width: 33%;
