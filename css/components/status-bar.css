@@ -1,5 +1,4 @@
 .status-bar {
-  /* 나중에 fixed 상태로 만들기 */
   display: flex;
   width: 100%;
   justify-content: center;
