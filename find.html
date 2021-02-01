@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Find - Kokoa Clone</title>
     <style>
-      .cog-icon {
+      .notify-icon {
         position: relative;
       }
-      .cog-span {
+      .notify-div {
         display: flex;
         background-color: tomato;
         width: 4px;
         height: 4px;
         border-radius: 2px;
         position: absolute;
-        bottom: 20px;
-        left: -5px;
+        top: -4px;
+        right: -4px;
       }
     </style>
   </head>
@@ -41,30 +41,63 @@
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icon">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span class="cog-icon"
-          ><i class="fas fa-cog fa-lg"></i><span class="cog-span"></span
-        ></span>
+        <span class="notify-icon"
+          ><i class="fas fa-cog fa-lg"></i><span class="notify-div"></div
+        ></div>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="find-icons">
-        <div class="find-icons__icon">
+      <div class="icon-row">
+        <div class="icon-row__icon">
           <i class="fas fa-qrcode"></i><span>QR Code</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fas fa-address-book"></i><span>Add by Contacts</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fas fa-fingerprint"></i><span>Add by ID</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="far fa-envelope"></i><span>Invite</span>
         </div>
       </div>
       <div class="recommended-friends">
         <h6 class="recommended-friends__title">Recommended Friends.</h6>
         <span>You have no recommended friends.</span>
+      </div>
+      <div class="dpen-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">Open Chat</h4>
+          <span
+            >Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#NANANIJI</h5>
+            <h6 class="open-post__hashtags">#kaze#wa#fuiteruka</h6>
+            <div class="open-post__members">
+              <img
+                src="https://nanabunnonijyuuni.com/files/4/n129/assets/img/artist-list/210112/a4.jpg"
+              />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Actiive</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://www.sonymusic.co.jp/adm_image/common/artist_image/70008000/70008757/jacket_image/198862__240_240_0.jpg"
+              />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
