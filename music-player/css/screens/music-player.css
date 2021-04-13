@@ -1,0 +1,22 @@
+.music-player__timeline {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.music-player__timeline-time {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+.music-player__timeline input {
+  background-color: black;
+}
+.music-player__player {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  font-size: 50px;
+  margin-top: 40px;
+}

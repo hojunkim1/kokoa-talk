@@ -1,0 +1,96 @@
+.music-list__buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.music-list__buttons div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+.music-list__buttons__shuffle {
+  margin-right: 20px;
+  color: white;
+  background-color: black;
+}
+.music-list__buttons__heart {
+  color: black;
+  background-color: white;
+}
+.music-list__buttons__heart i {
+  margin-right: 5px;
+}
+.music-list__lists {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.music-list__list-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  position: relative;
+}
+.music-list__list-box:nth-child(2) {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.music-list__lists-text {
+  margin-left: 10px;
+}
+.music-list__lists-text span:first-child {
+  margin-bottom: 5px;
+}
+.music-list__list-box i {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.music-list__lists-text {
+  display: flex;
+  flex-direction: column;
+}
+.music-list__player {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0px 30px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  position: absolute;
+  bottom: 15px;
+  box-shadow: 2px 2px 10px;
+}
+.music-list__player-text {
+  display: flex;
+  flex-direction: column;
+}
+.music-list__player-text span:first-child {
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+.music-list__player-text span:nth-child(2) {
+  color: white;
+}
+.music-list__player-button {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  font-size: 20px;
+  color: aliceblue;
+}
